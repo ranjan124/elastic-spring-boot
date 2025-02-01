@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: elastic
+  elasticsearch:
+    username: elastic
+    password: secret123
+    connection-timeout: 5s
+    socket-timeout: 30s
+    uris: http://localhost:9200
+
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
