@@ -9,5 +9,4 @@ class ElasticApplicationTests {
     @Test
     fun contextLoads() {
     }
-
 }
